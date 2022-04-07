@@ -1,0 +1,28 @@
+{
+"temples":[
+{"name":"Templo de Brigham City, Utah",
+"address":"250 S Main St Brigham City UT 84302-2560",
+"services":"Clothing rental available, No cafeteria available,",
+"closures":"Monday, 8 August 2022 - Monday, 22 August 2022,Friday, 9 September 2022 (Limited Operations)"
+},
+
+{"name":"Cedar City Utah Temple",
+"address":"280 South Cove Dr Cedar City UT 84720",
+"services":"Clothing rental available, No cafeteria available",
+"closures":"Monday, 11 April 2022 - Monday, 25 April 2022, Saturday, 1 October 2022"
+},
+
+{"name":"Idaho Falls Idaho Temple",
+"address":"1000 Memorial Dr Idaho Falls ID 83402-3410",
+"services":"No patron housing available,Distribution center nearby",
+"closures":"Wednesday, 23 November 2022 (Limited Operations)"
+},
+
+{"name":"Jordan River Utah Temple",
+"address":"10200 S Temple Drive South Jordan UT 84095-8814",
+"services":"No cafeteria available ,No patron housing available",
+"closures":"Monday, 16 May 2022 - Monday, 30 May 2022"
+}
+]
+
+}

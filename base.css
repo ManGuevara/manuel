@@ -1,0 +1,247 @@
+
+
+/*.........header..........*/
+
+header{
+    padding: 5px 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns:  2fr 1fr 1fr;
+    background-color: #593f20 ;
+    color:#EABE3F;
+    font-family: 'Merriweather', serif;;
+    
+}
+
+.logo{
+    display:flex;
+    padding:1.25em;  
+}
+.logo img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+    border: solid;
+}
+.headings {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    
+}
+.headings h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+.headings p {
+  
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0;
+
+    
+}
+
+.social{
+    display:flex;
+    grid-column: 2/3;
+    grid-row:1/2;
+    margin-left:35px;  
+}
+.social img {
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#hamburgerBtn{
+    grid-column: 3/4;
+    width: 30px;
+    height:30px;
+    border-radius:5px;
+    line-height: 1.15;
+    
+}
+header nav {
+    grid-column: 1/4;
+    
+}
+
+/*.........nav........*/
+nav ul{display:none;}
+
+nav ul.open{
+    display:block;
+	background-color: #F3F4F7;
+	border-radius: 15px;
+    padding: 12px 0px 13px 15px;
+    list-style: none;
+    border: solid;
+   
+}
+
+nav ul.open a{
+	
+	font-family: 'Libre Franklin';
+	font-size: 15px;  
+}
+
+nav ul li a{
+    
+    color: black;
+    padding: .5rem 0;
+    text-decoration: none;
+    font-size: .9rem;
+    text-align: center;
+    
+}
+
+
+
+
+ 
+#hamburgerBtn span:nth-child(1) {display:flex;}
+#hamburgerBtn span:nth-child(2) {display:none;}
+
+#hamburgerBtn.open span:nth-child(1) {display:none;}
+#hamburgerBtn.open span:nth-child(2) {display:flex;}
+
+
+
+
+
+
+
+/*......body.......*/
+body {
+    padding: 0;
+    margin: 0 5%;
+    
+}
+
+
+
+/*.........main..........*/
+main{
+    background-color: #F3F4F7;
+    font-family: 'Libre Franklin';
+    font-size: 18px;
+}
+
+
+/*........Hero.......*/
+
+
+button.Btn-book{
+    position: relative;
+    bottom: 50px;
+    left:40px;
+    padding:10px;
+    font-size: 20px;
+    font-family: 'Libre Franklin';
+    background-color: #F3F4F7;
+
+
+}
+
+.hero{
+    height:auto;
+}
+.hero picture img.bed-temples{
+   
+    width:100%;
+    height:100%;
+    
+    
+}
+
+.temple{
+    border:solid cornflowerblue;
+}
+.temple img{
+    display: block;
+    width: 100%;
+}
+.intro{
+    border:solid cornflowerblue;
+}
+.intro h1{
+
+    text-align: center;
+
+}
+.intro p{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.temple h2{
+    
+    text-align: center;
+
+}
+section p{
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.actividades{
+    border:solid cornflowerblue;
+   
+}
+.actividades h1{
+    text-align: center;
+}
+.weather{
+    border:solid cornflowerblue;
+    text-align: center;
+}
+.weather h1{
+    text-align: center;
+}
+.weather p{
+    padding-left: 27px;
+}
+.pronostico{
+    border:solid cornflowerblue;
+    text-align: center;
+}
+.portada_templos{
+    display:none;
+}
+
+
+.date{
+    padding-left:27px ;
+}
+/*..........footer........*/
+footer{
+    background-color: #593f20;
+}
+
+footer{
+    
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    text-align: center;
+    color: #EABE3F;
+    
+}
+
+.formulario{
+    padding:2px;
+}
+.social-footer{
+    align-content: center;
+}
+.social-footer img{
+    width: 30px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
