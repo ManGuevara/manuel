@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temples</title>
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Merriweather:ital@1&family=Spectral+SC&display=swap"
+        rel="stylesheet">
+
+</head>
+<body>
+
+    <div>
+        <header>
+            <div class="logo">
+                <img src="images/logo/rsz_logo_hotel-removebg-preview.png" alt="logo image">
+                <section class="headings">
+                    <h1>Temple </h1>
+                    <p>Inn & Suites</p>
+                </section>
+            </div>
+
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span> </button>
+            <nav>
+
+                <ul id="menu">
+                    <li class="active"><a href="temples.html">Temples</a></li>
+                    <li class="active"><a href="reservation.html">Reservation</a></li>
+                    <li class="active"><a href="services.html">Services</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
+
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://twitter.com/?lang=ES" target="_blank">
+                    <img src="images/twitter.png" alt="twitter-logo" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="facebook image" />
+                </a>
+            </div>
+
+
+
+        </header>
+
+        <main>
+            <div class="cards"></div>
+        </main>
+
+
+        <footer>
+
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.404837032925!2d-77.09772584904691!3d38.983255949383455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97b6b3b5b43%3A0xceab47cd19a23a3b!2s4800%20Montgomery%20Ln%2C%20Bethesda%2C%20MD%2020814%2C%20EE.%20UU.!5e0!3m2!1ses-419!2spe!4v1648762174615!5m2!1ses-419!2spe"
+                    width="330" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <p>
+                        4800 Montgomery Ln, Bethesda, MD 20814, EE. UU.
+                    </p>
+            </div>
+            <div class="formulario">
+                <h2>CONTACT US</h2>
+                <form name="form" method="get">
+                    <p>
+                        <label>Name:<input type="text" name="name"></label>
+                    </p>
+                    <p>
+                        <label>Mail:<input type="email" name="mail"></label>
+                    </p>
+                    <p>
+                        <label>Message:<textarea name="text" cols="25" rows="6"></textarea></label>
+                    </p>
+                    <p class="Btn">
+                        <input type="submit" value="Submit">
+                    </p>
+
+                </form>
+            </div>
+
+            <div class="year_data">
+                <p> &copy;<span id="year"></span> Temple Inn Suites </p>
+                
+            </div>
+            <p class="update_text"> Last Modification:<span id="last_modified"></span></p>
+            <div class="social-footer">
+                <a href="https://twitter.com/?lang=ES" target="_blank">
+                    <img src="images/twitter.png" alt="twitter-logo" />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="images/facebook.png" alt="facebook image" />
+                </a>
+            </div>
+
+
+
+
+
+
+        </footer>
+
+
+
+    </div>
+    <script src="js/hamburger.js"></script>
+    <script src="js/currentdate.js"></script>
+    <script src="js/lastupdate.js"></script>
+    <script src="js/temples.js"></script>
+    
+</body>
+</html>
