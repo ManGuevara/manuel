@@ -22,10 +22,6 @@ fetch(requestURL)
         });
 
 
-
-
-
-
 function displayTemples(templo){
     // Create elements to add to the document
     let card = document.createElement('section');
@@ -48,10 +44,24 @@ function displayTemples(templo){
     h1.textContent = `Temple name: ${templo.name}`;
     p1.textContent = `Temple address: ${templo.address}`;
     h2.textContent = `Services`
-    ul1.textContent = templo.services;
-    h3.textContent = `Closures`
-    ul2.textContent = templo.closures;
     
+    h3.textContent = `Closures`
+    
+    
+
+    const service = templo.services;
+    for(var j=0; j< service.length; j++) {
+        const listItem = document.createElement('li');
+        listItem.textContent = service[j];
+        ul1.appendChild(listItem)
+    }
+
+    const closure = templo.closures;
+    for(var j=0; j< closure.length; j++) {
+        const listItem = document.createElement('li');
+        listItem.textContent = closure[j];
+        ul2.appendChild(listItem)
+    }
 
     // Add/append the section(card) with the h2 element
     
@@ -61,7 +71,7 @@ function displayTemples(templo){
     card.appendChild(h2);
     card.appendChild(ul1);
     card.appendChild(h3);
-    card.appendChild(li2);
+    card.appendChild(ul2);
     
   
     // Add/append the existing HTML div with the cards class with the section(card)
