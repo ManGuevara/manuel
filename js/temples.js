@@ -32,9 +32,10 @@ function displayTemples(templo){
     let imagen = document.createElement('img');
     let h1 = document.createElement('h1');
     let p1 = document.createElement('p');
-    let p2 = document.createElement('p');
-    let li1 = document.createElement('li');
-    let li2 = document.createElement('li');
+    let h2 = document.createElement('h2');
+    let ul1 = document.createElement('ul');
+    let h3 = document.createElement('h2');
+    let ul2 = document.createElement('ul');
     
 
     // Build the image attributes by using the setAttribute method for the src
@@ -44,18 +45,22 @@ function displayTemples(templo){
     imagen.setAttribute('loading','lazy');
      // Change the textContent property of the p elements
    
-    h1.textContent = `Temple name: ${templo.name}`
+    h1.textContent = `Temple name: ${templo.name}`;
     p1.textContent = `Temple address: ${templo.address}`;
-    li1.textContent = templo.services;
-    li2.textContent = templo.closures;
+    h2.textContent = `Services`
+    ul1.textContent = templo.services;
+    h3.textContent = `Closures`
+    ul2.textContent = templo.closures;
     
 
     // Add/append the section(card) with the h2 element
     
     card.appendChild(imagen);
+    card.appendChild(h1);
     card.appendChild(p1);
-    card.appendChild(p2);
-    card.appendChild(li1);
+    card.appendChild(h2);
+    card.appendChild(ul1);
+    card.appendChild(h3);
     card.appendChild(li2);
     
   
