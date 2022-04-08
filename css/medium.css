@@ -71,8 +71,20 @@ footer div{
 }
 
 
+/*............Temples page.........*/
+
+@media screen and (min-width: 404px) and (max-width: 904px){
+    main{
+        grid-template-columns: none;
+    }
+    .main-temples .cards {
+        grid-template: auto / repeat(2, minmax(auto, 1fr));
+    }
+
+.title{
+    grid-column: 1/3;
+}
 
 
-
-
+}
 }

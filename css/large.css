@@ -51,6 +51,7 @@ div {
 main{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
+    
 }
 main div{
     margin:0px 0px;
@@ -103,6 +104,21 @@ picture .bed-temples{
     
 }
 
+@media screen and (min-width: 905px) {
+ 
+    main{
+        grid-template-columns: none;
+    }
+    .main-temples .cards {
+        grid-template: auto / repeat(4, minmax(auto, 1fr));
+        
+    }
+    .title{
+        grid-column: 1/4;
+    }
+    
+
+}
 
 
 
