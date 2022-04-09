@@ -18,7 +18,7 @@
 
 /*...........main.........*/
 
-main{
+.contenido{
     display:grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -74,10 +74,8 @@ footer div{
 /*............Temples page.........*/
 
 @media screen and (min-width: 404px) and (max-width: 904px){
-    main{
-        grid-template-columns: none;
-    }
-    .main-temples .cards {
+    
+    .cards {
         grid-template: auto / repeat(2, minmax(auto, 1fr));
     }
 

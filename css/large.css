@@ -4,6 +4,8 @@
 /*........header.........*/
 
 header{
+    max-width: 960px;
+    margin: 1.25rem auto;
     grid-template-columns: 1fr 2fr 1fr;
 }
 header nav {
@@ -40,21 +42,26 @@ nav ul  {
     padding: .5rem 3rem;
 	
 }
+
+
 /*..........main..........*/
-div {
+
+main{
+    max-width: 960px;
+    margin: 1.25rem auto;
+} 
+
+.contenido {
     max-width: 960px;
     margin: 1.25rem auto;
     font-size: 13px;
-  }
-
-
-main{
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
-    
-}
-main div{
+  }
+
+.contenido div{
     margin:0px 0px;
+    
 }
 
 .hero{
@@ -99,19 +106,29 @@ main div{
 }
 picture .bed-temples{
    
-    width:100%;
-    
+    width:100%;  
+}
+
+/*............footer............*/
+footer{
+    max-width: 960px;
+    margin: 1.25rem auto;
     
 }
 
-@media screen and (min-width: 905px) {
- 
-    main{
-        grid-template-columns: none;
+
+
+
+@media screen and (min-width: 904px) {
+   
+    header{
+        max-width: 960px;
+    margin: 1.25rem auto;
     }
-    .main-temples .cards {
-        grid-template: auto / repeat(4, minmax(auto, 1fr));
-        
+    .cards{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        max-width: 960px;
+      
     }
     .title{
         grid-column: 1/4;
@@ -121,11 +138,6 @@ picture .bed-temples{
 }
 
 
-
-/*............footer............*/
-footer{
-    margin:0px;
-}
 
 
 
