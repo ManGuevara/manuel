@@ -92,15 +92,28 @@ nav ul.open a{
 }
 
 nav ul li a{
-    
-    color: black;
+
+    display: block;
+    color: blue;
     padding: .5rem 0;
     text-decoration: none;
     font-size: .9rem;
     text-align: center;
     
 }
+/* Change the link color on hover */
 
+
+
+  li a.active {
+    background-color: cornflowerblue;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
 
 
 
@@ -266,7 +279,7 @@ footer{
 .cards img{
     width:100%;
     
-    box-shadow: 0 0 30px rgb(212, 89, 89);
+    box-shadow: 0 0 30px cornflowerblue;
     margin-left: auto;
     margin-right: auto;
     display: block;
